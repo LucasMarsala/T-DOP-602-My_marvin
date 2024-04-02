@@ -30,9 +30,9 @@ jenkins:
             description: "Marvin master"
             permissions:
               - "Overall/Administer"
-            assignments:
-              - "chocolateen"
-              - "admin"
+            entries:
+              - user: "chocolateen"
+              - user: "admin"
           - name: "gorilla"
             description: "Group Obsessively Researching Innovation Linked to Learning and Accomplishment"
             permissions:
@@ -44,24 +44,24 @@ jenkins:
               - "Job/Delete"
               - "Job/Move"
               - "Job/Cancel"
-            assignments:
-              - "vaugie_g"
+            entries:
+              - user: "vaugie_g"
           - name: "ape"
             description: "Pedagogical team member"
             permissions:
               - "Overall/Read"
               - "Job/Build"
               - "Job/Workspace"
-            assignments:
-              - "i_dont_know"
+            entries:
+              - user: "i_dont_know"
           - name: "assist"
             description: "Assistant"
             permissions:
               - "Overall/Read"
               - "Job/Read"
               - "Job/Workspace"
-            assignments:
-              - "nasso"
+            entries:
+              - user: "nasso"
 tool:
   git:
     installations:
